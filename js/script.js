@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $(document).ready(function() {
 
   $('#slides').superslides({
@@ -50,7 +49,7 @@ $(document).ready(function() {
   });
 
 });
-=======
+
 $(document).ready(function() {
 
   $('#slides').superslides({
@@ -69,8 +68,9 @@ $(document).ready(function() {
 
   $('.owl-carousel').owlCarousel({
     loop: true,
-    margin: 10,
-    nav: true,
+    items: 4,
+    // margin: 10,
+    // nav: true,
     responsive: {
       0: {
         items: 1
@@ -85,7 +85,7 @@ $(document).ready(function() {
         items: 4
       }
     }
-  })
+  });
 
   $('.chart').easyPieChart({
     easing: 'easeInOut',
@@ -101,4 +101,3 @@ $(document).ready(function() {
   });
 
 });
->>>>>>> 72bf37434fe389d1709002443b2e60b2482eec29
