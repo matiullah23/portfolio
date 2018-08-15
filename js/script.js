@@ -89,7 +89,7 @@ $(document).ready(function() {
 
     var selector = $(this).attr("data-filter");
     $(".items").isotope({
-      filter:'selector',
+      filter: selector,
       animationOptions: {
         duration: 1500,
         easing: 'linear',

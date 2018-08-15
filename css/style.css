@@ -61,14 +61,15 @@ body {
 
 .section {
   padding: 100px 0;
+  /* background-color: #130f40;
+  color: #fff; */
 }
 
 .aboutImage {
   max-width: 100%;
 }
 
-.skillsSection,
-.contactSection {
+.skillsSection{
   background-color: #130f40;
   color: #fff;
 }
@@ -157,8 +158,19 @@ body {
   color: #444;
 }
 
+#contact {
+  display: inline-block;
+  width: 100%;
+}
+
+.socialMediaButtons {
+  display: inline-block;
+  padding: 25px 25px;
+}
+
 .contactButton {
   color: #fff;
+  background-color: #130f40;
   padding: 15px 20px;
   display: inline-block;
   margin-top: 20px;
@@ -169,7 +181,7 @@ body {
 .contactButton:hover {
   text-decoration: none;
   color: #130f40;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .filter a {
@@ -319,6 +331,11 @@ body {
   margin: 0;
 }
 
+#portfolio {
+  background-color: #130f40;
+  color: #fff;
+}
+
 #navigation {
   background-color: #130f40;
   padding: 20px 10px;
@@ -363,4 +380,34 @@ color: #fff;
   width: 100%;
   height: 100%;
   background: url(../img/loader.gif) center center no-repeat;
+}
+
+ .socialMedia {
+	list-style: none;
+  padding-top: 20px;
+}
+
+.socialMedia li {
+	display: inline-block;
+}
+
+.socialMedia li a i {
+	background: #130f40;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	border-radius: 20px;
+	font-size: 45px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 10%;
+}
+
+
+.socialMedia li a i {
+	transition: all 0.2s ease-in-out;
+}
+
+.socialMedia li a i:hover {
+	opacity: .7;
 }
